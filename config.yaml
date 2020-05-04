@@ -1,7 +1,6 @@
 k3os:
   password: D@wson-4432
+  token: D@wson-4432
   k3s_args:
   - server
   - --no-deploy=traefik
-k3os.token
-  - --token D@wson-4432
