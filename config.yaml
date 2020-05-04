@@ -3,4 +3,5 @@ k3os:
   k3s_args:
   - server
   - --no-deploy=traefik
+k3os.token
   - --token D@wson-4432
