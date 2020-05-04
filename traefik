@@ -1,4 +1,0 @@
-k3os:
-  k3s_args:
-  - server
-  - --no-deploy=traefik
