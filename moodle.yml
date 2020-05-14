@@ -18,6 +18,6 @@ services:
     - MOODLE_DATABASE_NAME=bitnami_moodle
     - ALLOW_EMPTY_PASSWORD=yes
     ports:
-    - 443:443
+    - 80:80
     volumes:
     - moodle-data:/bitnami
