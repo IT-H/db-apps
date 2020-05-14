@@ -1,0 +1,23 @@
+services:
+  mariadb:
+    image: "bitnami/mariadb:10.1"
+    environment:
+    - MARIADB_USER=moodle1
+    - MARIADB_DATABASE=D2wson-4432
+    - ALLOW_EMPTY_PASSWORD=yes
+    volumes:
+    - mariadb-data:/bitnami
+    port:
+    - 3306:3306,internal=true
+  moodle:
+    image: "bitnami/moodle:3"
+    environment:
+    - MARIADB_HOST=db1
+    - MARIADB_PORT_NUMBER=3306
+    - MOODLE_DATABASE_USER=moodle1
+    - MOODLE_DATABASE_NAME=moodle
+    - ALLOW_EMPTY_PASSWORD=yes
+    ports:
+    - 443:443
+    volumes:
+    - moodle-data:/bitnami
