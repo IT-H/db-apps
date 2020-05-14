@@ -1,8 +1,4 @@
 services:
-  build:
-      context: ./moodle/
-      dockerfile: Dockerfile
-    imagePullPolicy: IfNotPresent
   mariadb:
     image: "bitnami/mariadb:10.1"
     environment:
