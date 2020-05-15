@@ -4,4 +4,4 @@ k3os:
   k3s_args:
   - server
   - --no-deploy=traefik
-  K3S_DATASTORE_ENDPOINT='mysql://k3sadmin:D2wson-4432@tcp(192.168.1.205:3306)/k3sdb'
+  - K3S_DATASTORE_ENDPOINT='mysql://k3sadmin:D2wson-4432@tcp(192.168.1.205:3306)/k3sdb'
