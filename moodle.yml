@@ -1,7 +1,7 @@
 version: '1'
 services:
   volumes:
-      - 'mariadb_data:/bitnami bitnami/mariadb:3.8.3 
+      - 'mariadb_data:/bitnami bitnami/mariadb:3.8.3'
   moodle:
     build: .
     environment:
