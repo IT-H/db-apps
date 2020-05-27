@@ -21,3 +21,4 @@ volumes:
     driver: local
   moodle_data:
     driver: local
+bitnami/mariadb:3.8.3
