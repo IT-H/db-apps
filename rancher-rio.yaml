@@ -1,0 +1,15 @@
+services:
+  rancher:
+    image: rancher/rancher:v2.4.2
+    ports: 
+    - 80
+    env:
+    - CATTLE_NAMESPACE=default
+    - CATTLE_PEER_SERVICE=default
+    args:
+    - "--no-cacerts"
+    - "--http-listen-port=80"
+    - "--https-listen-port=443"
+    - --add-local=true
+    global_permissions:
+    - role=cluster-admin
