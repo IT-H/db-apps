@@ -4,3 +4,4 @@ k3os:
   k3s_args:
   - server
   - --no-deploy=traefik
+  - --datastore-endpoint=mysql://kadmin:D@Wson-4432@tcp(192.168.1.205:3306)/k3sha
