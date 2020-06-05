@@ -1,6 +1,6 @@
 k3os:
   k3s_args:
-  - server
-  - "--server=https://192.168.1.213:6443"
-  - "--token=D@wson-4432"
-  - --no-deploy=traefik
+    - server
+    - "--server=https://192.168.1.211:6443"
+    - "--token=D@wson-4432"
+    - --no-deploy=traefik
