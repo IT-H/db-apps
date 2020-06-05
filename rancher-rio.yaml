@@ -1,6 +1,6 @@
 services:
   rancher:
-    image: rancher/rancher:v2.4.2
+    image: rancher/rancher:v2.4.3
     ports: 
     - 80
     env:
