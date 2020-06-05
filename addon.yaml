@@ -3,5 +3,6 @@ k3os:
   token: D@wson-4432
   k3s_args:
   - server
-  - server_url: https://someserver:6443
+  - "--server=https://192.168.1.213:6443"
+  - "--token=D@wson-4432"
   - --no-deploy=traefik
