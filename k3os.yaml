@@ -3,4 +3,5 @@ k3os:
   token: D@wson-4432
   k3s_args:
   - server
+  - "--cluster-init"
   - --no-deploy=traefik
