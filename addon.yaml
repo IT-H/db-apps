@@ -1,7 +1,7 @@
 k3os:
-  password: D@wson-4432
+  password: P@ssword
   k3s_args:
     - server
     - "--server=https://192.168.1.211:6443"
-    - "--token=D@wson-4432"
+    - "--token=P@ssword"
     - --no-deploy=traefik
